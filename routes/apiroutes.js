@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const notes = require('../db/db.json');
-const {v4: uuid} = require('uuid');
+// const {v4: uuid} = require('uuid');
 const {createNewNotes, updateDb} = require('../db/db.json');
 
 router.get('/notes', (req, res) => {
@@ -8,14 +8,16 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    req.body = uuid.v4();
-    const newNotes = createNewNotes(req.body, notes);
+    // req.body = uuid.v4();
+    // const newNotes = createNewNotes(req.body, notes);
+    const newNotes = createNewNotes(notes);
     res.json(newNotes);
 });
 
 router.delete('/notes', (req, res) => {
     const params = req.params
     updateDb(params, notes);
+    res.redirect('');
 });
 
 module.exports = router;

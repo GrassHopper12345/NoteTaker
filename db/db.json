@@ -1,4 +1,5 @@
-[
+{
+"notes":[
     {
         "title":"Note 1",
         "text":"text" 
@@ -24,3 +25,4 @@
         "text":"text" 
     }
 ]
+}
