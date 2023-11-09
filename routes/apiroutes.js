@@ -14,7 +14,7 @@ router.post('/notes', (req, res) => {
     res.redirect(newNotes);
 });
 
-router.delete('/notes/:id', (req, res) => {
+router.delete('api/notes/:id', (req, res) => {
     const params = req.params
     updateDb(params, notes);
     res.redirect('');
