@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-
 function updateDb(id, notesArray) {
     const notesDeleted = id;
     for (let i = 0; i < notesArray.length; i++) {
@@ -17,7 +16,6 @@ function updateDb(id, notesArray) {
         break;
     }
 }
-
 
 function createNewNotes(body, notesArray) {
     const newNotesCreated = body;
