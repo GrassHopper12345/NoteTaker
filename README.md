@@ -40,13 +40,32 @@ WHEN I click on the "New Note" button in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 ```
 ## Installation & Usage Instructions
-- First follow the link to posted github repository.
-- Clone the repository to your local machine.
-- Install required dependencies for Express.js Node.js.
+1. First follow the link to posted github repository.
+2. Clone the repository to your local machine.
+3. Install required dependencies for Express.js Node.js.
+4. Run the server.js file by entering node server.js in your terminal.
+5. Follow the localhost:3001 url given to you in the terminal.
+6. The given URL will be your landing page.
+7. Click the 'Get Started' button. 
+8. This will take the user to the NoteTaker Express page where notes are created, saved, and deleted as needed.
+9. Click the cursor in the 'Note Title' area to start typing the title of the note.
+10. Click the cursor in the 'Note Text' area to start typing the text of the note.
+11. Once complete, a button in the top-right corner of the application will display 'Save Note' and 'Clear Form'.
+12. Click the respective button to either clear the form or save the note.
+13. If the save button is clicked, the new note will be saved and be viewable at the left-sided column of saved notes.
+
 
 ## Mock-up
 
 The following screenshots show a users landing page and well as each function that the user sees post each action by the user.
+
+![Alt text](<Images/Screenshot 2023-11-10 at 8.58.27 AM.png>)
+
+![Alt text](<Images/Screenshot 2023-11-10 at 9.01.01 AM.png>)
+
+![Alt text](<Images/Screenshot 2023-11-10 at 9.08.35 AM.png>)
+
+![Alt text](<Images/Screenshot 2023-11-10 at 9.09.08 AM.png>)
 
 ## GitHub URL
 
