@@ -71,3 +71,4 @@ https://github.com/GrassHopper12345/NoteTaker
 
 ## Walk-Through Video
 
+https://drive.google.com/file/d/1X0J64RZrapepatVPXxGJDenyMDqh3d6-/view
