@@ -11,7 +11,6 @@ Note Taker Express is a simple to use personal use note taking application. This
 - [Mock Up](#mock_up)
 - [GitHub URL](#gitHub_url)
 - [Walk-Through Video](#walk_through_video)
-- 
 
 
 ## User Story
@@ -68,6 +67,7 @@ The following screenshots show a users landing page and well as each function th
 ![Alt text](<Images/Screenshot 2023-11-10 at 9.09.08 AM.png>)
 
 ## GitHub URL
+https://github.com/GrassHopper12345/NoteTaker
 
 ## Walk-Through Video
 
