@@ -66,9 +66,6 @@ The following screenshots show a users landing page and well as each function th
 
 ![Alt text](<Images/Screenshot 2023-11-10 at 9.09.08 AM.png>)
 
-## GitHub URL
-https://github.com/GrassHopper12345/NoteTaker
+## [GitHub URL](https://github.com/GrassHopper12345/NoteTaker)
 
-## Walk-Through Video
-
-https://drive.google.com/file/d/1X0J64RZrapepatVPXxGJDenyMDqh3d6-/view
+## [Walk-Through Video](https://drive.google.com/file/d/1X0J64RZrapepatVPXxGJDenyMDqh3d6-/view)
