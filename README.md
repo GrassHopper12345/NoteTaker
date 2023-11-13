@@ -5,12 +5,12 @@
 Note Taker Express is a simple to use personal use note taking application. This application utilizes Node.js and Expresss.js. The express.js runs the backend as well as retrieves from and saves notes to the database as a JSON file.
 
 ## Table of Contents
-- [User Story](#user_story)
-- [Acceptance Criteria](#acceptance_criteria)
-- [Usage Instructions](#usage_Instructions)
-- [Mock Up](#mock_up)
-- [GitHub URL](#gitHub_url)
-- [Walk-Through Video](#walk_through_video)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Usage Instructions](#usage-instructions)
+- [Mock Up](#mock-Up)
+- [GitHub URL](#github-URL)
+- [Walk-Through Video](#walk-through-video)
 
 
 ## User Story
