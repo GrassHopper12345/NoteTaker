@@ -1,11 +1,11 @@
 const router = require('express').Router();
 const fs = require('fs');
 const uuid = require('uuid');
-const {createNewNotes, updateDb} = require('../db/notes');
+// const {createNewNotes, updateDb} = require('../db/notes');
 
 
 router.get('/notes', (req, res) => {
-    const data = fs.readFileSync('./db/db.json', 'utf-8');
+    const data = fs.readFileSync('./db/db.json', 'UTF-8');
     const savedNotes = JSON.parse(data);
     res.json(savedNotes);
 });
@@ -42,9 +42,9 @@ router.post('/notes', (req, res) => {
   });
 });
 
-router.delete('/api/notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     const noteId = req.params.id;
-  
+    console.log('hello');
     // Read the contents of the db.json file
     fs.readFile('./db/db.json', 'utf-8', (err, data) => {
       if (err) {
@@ -54,10 +54,10 @@ router.delete('/api/notes/:id', (req, res) => {
   
       // Parse the JSON data into an array of saved notes
       let savedNotes = JSON.parse(data);
-  
+      console.log(savedNotes);
       // Find the index of the note with the matching id
       const noteIndex = savedNotes.findIndex(note => note.id === noteId);
-  
+      console.log(noteIndex);
       // If the note is found, remove it from the array
       if (noteIndex !== -1) {
         savedNotes.splice(noteIndex, 1);
